@@ -1,0 +1,15 @@
+[package]
+name    = "parser"
+publish = false
+version = "0.1.0"
+
+edition      = { workspace = true }
+rust-version = { workspace = true }
+
+[dependencies]
+color-eyre = { workspace = true }
+serde      = { workspace = true }
+serde_json = { workspace = true }
+
+memmap2      = "0.9.4"
+source2-demo = { git = "https://github.com/Rupas1k/source2-demo", features = ["deadlock"] }
