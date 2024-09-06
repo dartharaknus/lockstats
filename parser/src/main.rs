@@ -2,8 +2,7 @@ use color_eyre::{install, Result};
 use memmap2::Mmap;
 use serde::Serialize;
 use serde_json::to_string;
-use source2_demo::prelude::*;
-use source2_demo::proto::*;
+use source2_demo::{prelude::*, proto::*};
 
 #[derive(Default, Serialize)]
 struct Stats {

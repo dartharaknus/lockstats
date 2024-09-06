@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 
-members = ["parser"]
+members = ["desktop", "parser"]
 
 [workspace.package]
 edition      = "2021"
